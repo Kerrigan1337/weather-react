@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Search />
-      <a href="#">Github link</a>
+      <a href="https://github.com/Kerrigan1337/weather-react">Github link</a>
     </div>
   );
 }

@@ -11,7 +11,6 @@ export default function Search() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    let apiKey = `001bc651977f4b024af4d84282b0f02a`;
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2ff29bed3181c3526c35cc5408037f85&units=metric`;
     axios.get(url).then(showTemperature);
     console.log(url);
